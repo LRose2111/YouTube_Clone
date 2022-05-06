@@ -1,0 +1,60 @@
+.overall-contain-se {
+    display: flex;
+    margin: auto;
+    max-width: 1000px;
+    padding-left: 8rem;
+    margin-bottom: 7rem;
+  }
+  
+  .search-containr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 6rem;
+    row-gap: 3rem;
+  }
+  
+  .search-register {
+    text-align: right;
+    padding-right: 2rem;
+  }
+  
+  .search-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .search-para {
+    font-size: 23px;
+  }
+  
+  .tube-you {
+    background-color: darkkhaki;
+    border-radius: 10px;
+    color: white;
+    padding: 3.5px;
+  }
+  
+  .disclaimer-title {
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .disclaim-para {
+    font-size: 18px;
+  }
+  
+  .sresult-title {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .search-font-size {
+    font-size: 16px;
+    width: 300px;
+  }
+  
+  .log-reg-font {
+    color: darkkhaki;
+  }

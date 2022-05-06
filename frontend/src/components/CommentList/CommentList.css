@@ -1,0 +1,15 @@
+.comm-list-contain {
+    background-color: black;
+    width: 530px;
+    margin-top: 1rem;
+    border-radius: 10px;
+    margin-left: 23rem;
+    margin-bottom: 1rem;
+  }
+  
+  .list-text {
+    color: white;
+    padding-top: 4px;
+    padding-left: 4px;
+    font-size: 18px;
+  }

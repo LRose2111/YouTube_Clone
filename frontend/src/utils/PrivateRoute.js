@@ -1,9 +1,11 @@
 import { Navigate } from "react-router-dom";
+import React from "react";
 import useAuth from "../hooks/useAuth";
 
 const PrivateRoute = ({ children }) => {
-  const [user] = useAuth();
-  return user ? children : <Navigate to="/login" />;
+  let [user] = useAuth();
+  console.log(user);
+  return user ? children : <Navigate to="/search" />;
 };
 
 export default PrivateRoute;

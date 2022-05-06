@@ -20,7 +20,7 @@ const SearchPage = () => {
     getSearchResults();
   }, [])
 
-  async function getSearchResults(searchTerm = 'devCodeCamp'){
+  async function getSearchResults(searchTerm = 'Duck Hunting'){
     let response = await axios.get(`https://www.googleapis.com/youtube/v3/search?part=snippet&q=${searchTerm}&type=video&maxResults=4&key=${key}`);
     setSearchResults(response.data.items)
   

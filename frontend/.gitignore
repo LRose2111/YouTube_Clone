@@ -1,4 +1,16 @@
+/node_modules
+localKey.js
+
+
+
 # Logs
+
+
+
+
+
+
+
 logs
 *.log
 npm-debug.log*
